@@ -77,12 +77,15 @@ nav{
     width: 100%;
     max-width: 73.125rem;
     margin: 0 auto;
-    background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
-    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 1rem;
 }
+
 
 .hero-section .hero-text{
     padding: 106px 185px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .container{
