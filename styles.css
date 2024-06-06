@@ -9,7 +9,7 @@
 
 
 header{
-    width: 81.25%;
+    width: 100%;
     max-width: 73.125rem;
     margin: 0 auto;
 }
@@ -71,6 +71,18 @@ nav{
 .menu .menu-bar ul li a:hover{
     color: #FF5400;
 
+}
+
+.hero-section{
+    width: 100%;
+    max-width: 73.125rem;
+    margin: 0 auto;
+    background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 20px;
+}
+
+.hero-section .hero-text{
+    padding: 106px 185px;
 }
 
 .container{
