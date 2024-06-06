@@ -1,0 +1,11 @@
+@media only screen and (max-width: 576px ) {
+    .menu .hamburger-menu{
+        display: block;
+    }
+    
+    .menu .menu-bar{
+        display: none;
+    }
+
+
+}
