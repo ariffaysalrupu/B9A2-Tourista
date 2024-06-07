@@ -14,6 +14,30 @@ header{
     margin: 0 auto;
 }
 
+.find-now-button{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .8rem 1.5rem;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .35s;
+}
+
+.find-now-button svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.find-now-button:hover{
+    background-color: #ff0400;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -66,6 +90,7 @@ nav{
     cursor: pointer;
     font-weight: 700;
     font-size: 1.125rem;
+    transition: .25s;
 }
 
 .menu .menu-bar ul li a:hover{
@@ -81,12 +106,114 @@ nav{
     border-radius: 1rem;
 }
 
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6.625rem 0;
+}
 
-.hero-section .hero-text{
-    padding: 106px 185px;
+.hero-text{   
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 3rem;
 }
+
+.hero-text h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.input-section{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;   
+    padding: 1rem 1rem;
+    border-radius: .5rem;
+    background: rgba(255, 255, 255, 0.30);
+    
+    
+}
+
+.input-field input{
+    padding: .9rem 1rem;
+    width: 7.5rem;
+    border-radius: .5rem;
+    background: #FFF;
+    border: none;
+    outline: 0;
+    position: relative;
+    cursor: text;
+    font-size: 1rem;
+    
+}
+
+.dropdown-section{
+    display: flex;
+    align-items: center;
+    padding: .8rem 1rem;
+    background-color: #FFFFFF;
+    border-radius: .5rem;
+    
+
+}
+
+.dropdown-section a{
+    text-decoration: none;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+
+
+.dropdown-section ul{
+    list-style: none;
+}
+
+.dropdown-button{
+    display: flex;
+    align-items: center;
+    width: 7.5rem;
+    justify-content: space-between;
+
+}
+
+.dropdown-button svg{
+    transition: .25s;
+}
+
+.dropdown-button svg:hover{
+    background-color: #f2f2f2;
+}
+
+.dropdown-section ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-section ul li a{
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #5e5e5e;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.dropdown-section ul{
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+
+
+
 
 .container{
     width: 81.25%;
