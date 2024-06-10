@@ -1,6 +1,6 @@
 @media only screen and (max-width: 576px ) {
     nav{
-        padding: 3rem 3rem;
+        padding: 2rem 2rem;
     }
     
     .menu .hamburger-menu{
@@ -11,5 +11,54 @@
         display: none;
     }
 
+    .hero-section{
+        width: 89.33%;
+        padding: 2.5rem 0;
+    }
+
+    .hero-text h1{
+        font-size: 1.3rem;
+        margin-bottom: .5rem;
+    }
+
+    .hero-text{
+        margin-bottom: 2rem;
+    }
+
+    /* input-section */
+
+    .input-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 15.94rem;
+    }
+
+    .input-section .input-field input{
+        width: 13.94rem;
+    }
+
+
+    .dropdown-section-main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .dropdown-button{
+        width: 100%;
+    }
+
+
+
+    
+    .find-now-button{
+      display: inline-flex;
+      justify-content: center;
+      /* position: relative; */
+      text-align: center;
+    
+
+    }
 
 }
