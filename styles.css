@@ -268,7 +268,8 @@ nav{
 }
 
 .popular-tours-section .popular-tour-image img{
+    object-fit: cover;
     width: 540px;
     height: 550px;
-    object-fit: cover;
+    
 }

@@ -61,4 +61,22 @@
 
     }
 
+    .container{
+        width: 89.33%;
+
+    }
+    .popular-tours-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .popular-tours-section .popular-tour-image img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+
 }
