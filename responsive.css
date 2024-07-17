@@ -94,6 +94,40 @@
         grid-column: 1/span 12;
     }
 
+    /* choose us section */
+
+    .choose-us-main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
    
+    .choose-us-section-combined-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .choose-us-text .heading-para{
+        width: 80%;
+    }
+
+    .choose-us-section-content-1 p{
+        width: 100%;
+    }
+
+    .choose-us-section-content-2 p{
+        width: 100%;
+    }
+
+    .choose-us-section-content-3 p{
+        width: 100%;
+     
+    }
+    .choose-us-section-content-3{
+        justify-content: left;
+        margin: 0 auto;
+        width: 83.5%;
+    }
 
 }

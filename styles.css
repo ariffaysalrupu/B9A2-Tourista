@@ -394,27 +394,32 @@ nav{
     gap: 2.5rem;
 }
 
-.choose-us-text{
-    text-align: center;
-}
 
 .choose-us-text h1{
     font-weight: 800;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
-.choose-us-text p{
+.choose-us-text .heading-para{
     width: 643px;
     margin: 0 auto;
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    text-align: center;
 }
 
 .choose-us-section-combined-content{
     display: flex;
     justify-content: space-between;
+}
+
+.choose-us-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
 }
 
 .choose-us-section-content-1{
@@ -464,4 +469,17 @@ nav{
 .choose-us-section-content-3 p{
     width: 486px;
     margin-top: 1rem;
+}
+
+/* <!-- deals and discounts section starts here --> */
+
+.first-tour-time{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.first-tour-time-content{
+    display: flex;
+    gap: .8rem;
+    align-items: center;
 }
