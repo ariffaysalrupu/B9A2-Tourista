@@ -30,6 +30,23 @@ header{
     background-color: #ff0400;
 }
 
+.secondary-button{
+    background-color: #FF5400;
+    color: #FFFFFF;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .35s;
+    
+}
+
+.secondary-button:hover{
+    background-color: #ff0400;
+}
+
 .find-now-button{
     display: flex;
     align-items: center;
@@ -475,6 +492,11 @@ nav{
 
 .deals-discounts-section{
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .deals-heading{
@@ -506,7 +528,7 @@ line-height: normal;
 }
 
 .first-tour{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     background: url(Images/Group\ 39.png);
     width: 1170px;
     height: 500px;
@@ -569,7 +591,7 @@ line-height: normal;
 
 
 .second-tour{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     background: url(Images/Group\ 39.png);
     width: 1170px;
     height: 500px;
@@ -629,3 +651,8 @@ line-height: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
+
+.deals-discounts-section .secondary-button{
+    width: 210px;
+}
+
