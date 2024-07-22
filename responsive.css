@@ -130,4 +130,54 @@
         width: 83.5%;
     }
 
+    /* choose us section ends here */
+
+    /* deals and discounts section starts here */
+
+    .deals-heading p{
+        width: 100%;
+    }
+
+    .first-tour{
+        width: 100%;    
+    }
+
+    .first-tour-content{
+        width: 377px;     
+        position: relative;
+        top: 60px;
+        left: 1rem;
+    }
+
+    .first-tour-time{
+        display: flex;
+        flex-wrap: wrap;
+    }    
+
+    .first-tour-text p{
+        width: 100%;
+        
+    }
+
+    .second-tour{
+        width: 100%;    
+    }
+
+    .second-tour-content{
+        width: 377px;     
+        position: relative;
+        top: 60px;
+        left: 1rem;
+    }
+
+    .second-tour-time{
+        display: flex;
+        flex-wrap: wrap;
+    }    
+
+    .second-tour-text p{
+        width: 100%;
+        
+    }
+
 }

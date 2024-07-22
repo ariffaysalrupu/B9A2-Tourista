@@ -532,6 +532,7 @@ line-height: normal;
     background: url(Images/Group\ 39.png);
     width: 1170px;
     height: 500px;
+    border-radius: 1rem;
 
 }
 
@@ -545,8 +546,6 @@ line-height: normal;
     position: relative;
     top: 58px;
     left: 520px;
-   
-
 }
 
 .first-tour-time{
@@ -592,7 +591,9 @@ line-height: normal;
 
 .second-tour{
     /* margin-top: 30px; */
-    background: url(Images/Group\ 39.png);
+    background: url(Images/Turkey.jpg);
+    object-fit: contain;
+    border-radius: 1rem;
     width: 1170px;
     height: 500px;
 
@@ -655,4 +656,9 @@ line-height: normal;
 .deals-discounts-section .secondary-button{
     width: 210px;
 }
+
+/* deal and discounts section ends here */
+
+/* Gallery section starts here */
+
 
