@@ -661,4 +661,57 @@ line-height: normal;
 
 /* Gallery section starts here */
 
+.gallery-section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gallery-text{
+    text-align: center;
+}
+
+.gallery-text h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.gallery-text p{
+    width: 480px;
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    
+}
+
+.gallery-images{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.gallery-1{
+    border-radius: 1rem;
+    grid-column: 1/span 2;
+    grid-row: 1/span 1.5; 
+}
+
+.gallery-2{
+    border-radius: 1rem;
+    grid-column: 2/span 4;
+    grid-row: 1/span 1.5; 
+}
+
+
+
+.gallery-section .secondary-button{
+    width: 300px;
+}
 
