@@ -223,6 +223,22 @@
 
     /* finished gallery section */
 
-    
+    /* get lost section starts here */
+
+    .get-lost-section{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .get-lost-text{
+        width: 100%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    /* get lost section ends here */
 
 }
