@@ -746,3 +746,48 @@ line-height: normal;
 }
 
 /* Gallery section completed */
+
+/* get lost section starts here */
+
+.get-lost-section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get-lost-text{
+    display: flex;
+    flex-direction: column;
+    width: 532px;
+    gap: 1.4rem;
+}
+
+.get-lost-text h1{
+    width: 448px;
+    color: #131318;
+    font-weight: 800;
+}
+
+.get-lost-text p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.get-lost-text .list>li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bullet-points-1{
+    margin-bottom: .5rem;
+}
+
+.get-lost-text button{
+    width: 150px;
+}
+
+/* get lost section ends here */
