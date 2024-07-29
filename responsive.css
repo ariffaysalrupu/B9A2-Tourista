@@ -241,4 +241,26 @@
 
     /* get lost section ends here */
 
+    /* newsletter section starts here */
+
+    .newsletter-section{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .newsletter-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .save-up{
+        top: 1803%;
+        left: 25%;
+    }
+    /* Newsletter section ends here */
+
 }
+
+
+
