@@ -260,6 +260,19 @@
     }
     /* Newsletter section ends here */
 
+    /* footer starts here */
+
+    .footer-text{
+        width: 287px;
+
+    }
+
+    .footer-horizontal{
+        width: 335px;
+    }
+
+    /* footer ends here */
+
 }
 
 

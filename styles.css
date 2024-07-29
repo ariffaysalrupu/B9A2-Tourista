@@ -888,3 +888,40 @@ font-weight: 800;
 }
 
 /* Newsletter section ended */
+
+/* footer starts here */
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+    gap: 1.5rem;
+
+}
+
+.footer-text{
+    width: 769px;
+    text-align: center;
+}
+
+.footer-content p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.social-icons{
+    margin-bottom: 1.5rem;
+}
+
+.footer-horizontal{
+    width: 872px;
+    height: 1px;    
+}
+
+/* footer ends here */
